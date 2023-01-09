@@ -1,4 +1,50 @@
 body {
   display: flex;
   justify-content: center;
+  background-color: rgb(197, 240, 240);
+}
+.divko {
+  font-size: 0px;
+}
+.schema {
+  margin-top: 40px;
+  width: 30%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 0px;
+}
+.selections {
+  display: flex;
+  justify-content: center;
+  margin-right: -250px;
+}
+.selection {
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: 150ms;
+}
+.selection:hover {
+  transform: scale(1.05);
+}
+.result {
+  margin-top: 70px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  align-items: center;
+  justify-items: center;
+}
+.skóre {
+  font-size: 0.8rem;
+  color: rgb(43, 43, 43);
+}
+.result-selection {
+  opacity: 0.7;
+}
+.winner {
+  opacity: 1;
+  font-size: 1.5rem;
 }

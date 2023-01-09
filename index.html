@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script src="js.js"></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,8 +10,41 @@
   <body>
     <div id="div1">
       <h1>kamen, papier, noznice</h1>
-      <p>ak si pripraveny hrat, stlac play</p>
-      <button onclick="tp()">play</button>
+      <p>ak si pripraveny, stlac next</p>
+      <button onclick="tp()">next</button>
+    </div>
+    <div id="div2" class="divko">
+      Vitaj, hra je jednoduchá, vyber si buď kameň, papier, alebo nožnice. Podľa
+      nasledujúcej schémy zisťíš ktoré nad čím vyhráva.
+      <button onclick="tp2()">next</button>
+    </div>
+    <div id="sch" class="schema">
+      Kameň poráža nožnice, lebo nožnice sa na ňom otupia; papier poráža kameň,
+      lebo ho môže zabaliť; nožnice porážajú papier, lebo ho môžu rozstrihnúť.
+      <button onclick="tp3()">play</button>
+    </div>
+    <div class="selections">
+      <button class="selection" data-selection="paper">✋</button>
+      <button class="selection" data-selection="scissors">✌️</button>
+      <button class="selection" data-selection="rock">✊</button>
+    </div>
+    <div class="result">
+      <div>
+        Ty
+        <span class="skóre" id="youScore">0</span>
+      </div>
+      <div>
+        Pc
+        <span class="skóre" id="computerScore">0</span>
+      </div>
+      <!--
+      <div class="result-selection-winner">✌️</div>
+      <div class="result-selection">✋</div>
+    -->
+      <div id="his" class="history">
+        <div data-final-column></div>
+      </div>
     </div>
   </body>
+  <script src="js.js"></script>
 </html>
