@@ -1,0 +1,85 @@
+body {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to right, aqua, rgb(132, 243, 53));
+}
+.name {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hra {
+  display: none;
+}
+.divko {
+  display: none;
+  width: 30%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.schema {
+  margin-top: 40px;
+  width: 30%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  display: none;
+}
+.selections {
+  display: flex;
+  justify-content: top;
+  margin-right: -250px;
+  margin-top: -20px;
+  scale: 1.2;
+  position: fixed;
+  top: 10%;
+  right: 63.9%;
+  box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.15);
+}
+.selection {
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: 150ms;
+}
+.selection:hover {
+  transform: scale(1.15);
+}
+.result {
+  margin-top: 70px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  align-items: center;
+  justify-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.skóre {
+  position: fixed;
+  font-size: 1.1rem;
+  color: rgb(43, 43, 43);
+}
+.result-selection {
+  opacity: 0.7;
+}
+.winner {
+  opacity: 1;
+  font-size: 1.5rem;
+}
+.tp {
+  border-radius: 90%;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  
+}
+.tp2 {
+  border-radius: 90%;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  /*border: none;
+  font-size: 0;
+  background: none;*/
+}
+.tp3 {
+  /*border: none;
+  font-size: 0;
+  background: none;*/
+  border-radius: 90%;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
