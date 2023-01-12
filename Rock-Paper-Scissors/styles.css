@@ -1,0 +1,94 @@
+body {
+  background: linear-gradient(to right, aqua, rgb(132, 243, 53));
+  font-family: sans-serif;
+  /*text-align: center;*/
+}
+.hra {
+  /* margin: 2%;
+  width: 100%;*/
+}
+.divko {
+  display: none;
+  width: 100%;
+}
+.schema {
+  margin-top: 40px;
+  width: 100%;
+  font-weight: 100;
+  display: none;
+}
+.selections {
+  display: flex;
+  justify-content: center;
+  /* margin-right: 400px;*/
+  /*margin-top: -20px;*/
+  scale: 1.2;
+  /* position: fixed;*/
+  /*top: 10%;*/
+  /*right: 63.9%;*/
+  /*box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.15);*/
+}
+.selection {
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: 150ms;
+}
+.selection:hover {
+  transform: scale(1.15);
+}
+.result {
+  margin-top: 70px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 220px);
+  align-items: center;
+  justify-items: center;
+}
+.skóre {
+  font-size: 2.5rem;
+  color: rgb(43, 43, 43);
+}
+.result-selection {
+  opacity: 0.7;
+}
+.winner {
+  opacity: 1;
+  font-size: 1.5rem;
+}
+.tp {
+  border-radius: 90%;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+.button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.resulttext {
+  /*font-size: 220%;
+  display: grid;
+  grid-template-columns: repeat(2, 220px);
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  margin-top: 40px;*/
+  /*margin-left: 230px;*/
+}
+.resultmain {
+  display: flex;
+  justify-content: center;
+}
+.resulttextWAP {
+  display: flex;
+  justify-content: center;
+}
+.buttonshadow {
+  box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.15);
+}
+/*#div1,
+#sch,
+#div2 {
+}*/

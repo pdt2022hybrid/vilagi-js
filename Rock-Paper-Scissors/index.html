@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="text-center">
+    <div class="name" id="div1">
+      <h1>Rock, Paper, Scisssors</h1>
+    </div>
+    
+    <div id="div2" class="divko">
+      Vitaj, hra je jednoduchá, vyber si buď kameň, papier, alebo nožnice. Podľa
+      nasledujúcej schémy zisťíš ktoré nad čím vyhráva.
+    </div>
+    <div id="sch" class="schema">
+      Kameň poráža nožnice, lebo nožnice sa na ňom otupia; papier poráža kameň,
+      lebo ho môže zabaliť; nožnice porážajú papier, lebo ho môžu rozstrihnúť.
+    </div>
+    <div id="button" class="button">
+      <button class="tp" onclick="tp()">next</button>
+    </div>
+    <div id="hr" class="hra mx-2 w-100">
+      <div class="selections">
+        <div class="buttonshadow">
+          <button class="selection" data-selection="paper">✋</button>
+          <button class="selection" data-selection="scissors">✌️</button>
+          <button class="selection" data-selection="rock">✊</button>
+        </div>
+      </div>
+      <div class="resulttextWAP">
+        <div class="resulttext row fs-1 w-25">
+          <div class="col-6">
+            Ty
+            <span class="skóre" id="youScore">0</span>
+          </div>
+          <div class="col-6">
+            Pc
+            <span class="skóre" id="computerScore">0</span>
+          </div>
+        </div>
+      </div>
+      <div id="history" class="result">
+        
+          
+            </div> 
+      </div>
+    </div>
+  </body>
+  <script src="js.js"></script>
+</html>
